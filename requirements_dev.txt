@@ -1,0 +1,9 @@
+pip
+bump2version
+wheel
+tox==3.14.0
+coverage==4.5.4
+twine==5.0.0
+ruff
+pytest==6.2.4
+
