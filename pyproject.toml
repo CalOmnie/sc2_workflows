@@ -18,7 +18,9 @@ classifiers = [
 ]
 license = {text = "MIT license"}
 dependencies = [
-  
+  "graphviz>=0.21",
+  "jupyter>=1.1.1",
+  "jupyterlab>=4.4.4",
 ]
 
 [project.optional-dependencies]

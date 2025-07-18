@@ -3,3 +3,6 @@
 __author__ = """Louis Groux"""
 __email__ = 'louis.cal.groux@example.com'
 __version__ = '0.1.0'
+
+def f():
+    print("hello toto 1")
