@@ -47,3 +47,9 @@ dist: clean ## builds source and wheel package
 
 install: clean ## install the package to the active Python's site-packages
 	pip install -e .
+
+send:
+	cp $@ /mnt/c/Users/Louis/Documents/sc2_flowcharts
+
+refresh:
+	uv run sc2_flowcharts --out ./windows

@@ -138,6 +138,15 @@ css = [
 ]
 
 [[package]]
+name = "catppuccin"
+version = "2.4.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2f/cd/e46ceb560c027af592bfacac73f7f203f67a6cc6fba4d7abc6c095c81963/catppuccin-2.4.1.tar.gz", hash = "sha256:bed41d14189a52569f6c1fd941155d7fc13561e76e84f11c5cf04dd0cb07b3c1", size = 1885055, upload-time = "2025-02-26T00:20:13.433Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/52/4f/4f893a4bf8515c57b9a37fc9355e0adb994e920b0e3f154dde529dc6ca6a/catppuccin-2.4.1-py3-none-any.whl", hash = "sha256:7821374c18a2c51ce1fd9239bce5689a4da6d9f26d1e324e0d19cc0e2ad7f77b", size = 18654, upload-time = "2025-02-26T00:20:10.783Z" },
+]
+
+[[package]]
 name = "certifi"
 version = "2025.7.14"
 source = { registry = "https://pypi.org/simple" }
@@ -1489,6 +1498,7 @@ name = "sc2-flowcharts"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "catppuccin" },
     { name = "graphviz" },
     { name = "jupyter" },
     { name = "jupyterlab" },
@@ -1504,6 +1514,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "catppuccin", specifier = ">=2.4.1" },
     { name = "coverage", marker = "extra == 'dev'" },
     { name = "graphviz", specifier = ">=0.21" },
     { name = "jupyter", specifier = ">=1.1.1" },
