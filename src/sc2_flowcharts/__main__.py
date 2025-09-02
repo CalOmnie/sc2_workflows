@@ -1,5 +1,5 @@
 import sys
-from sc2_flowcharts.builds import pvt_colossus, pvz_dt_drop, pvp_proxy_robo, tvz_standard
+from sc2_flowcharts.builds import pvt_colossus, pvz_dt_drop, pvp_proxy_robo, tvz_standard, pvt_sentry_charge
 import argparse
 
 ALL_BUILDS = {
@@ -7,6 +7,7 @@ ALL_BUILDS = {
     "pvz_dt_drop": pvz_dt_drop,
     "pvp_proxy_robo": pvp_proxy_robo,
     "tvz_standard": tvz_standard,
+    "pvt_sentry_charge": pvt_sentry_charge
 }
 
 def parser():

@@ -1,0 +1,10 @@
+catppuccin>=2.4.1
+graphviz>=0.21
+jupyter>=1.1.1
+jupyterlab>=4.4.4
+
+[dev]
+coverage
+mypy
+pytest
+ruff
