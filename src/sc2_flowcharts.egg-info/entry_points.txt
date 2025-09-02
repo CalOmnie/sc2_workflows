@@ -1,2 +1,0 @@
-[console_scripts]
-sc2_flowcharts = sc2_flowcharts.__main__:main
